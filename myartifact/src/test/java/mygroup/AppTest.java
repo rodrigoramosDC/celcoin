@@ -7,14 +7,10 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 import org.datacontract.schemas._2004._07.todaconta.*;
-import org.datacontract.schemas._2004._07.todaconta_webservice.CategoriaRecarga;
-import org.datacontract.schemas._2004._07.todaconta_webservice.Recarga;
-import org.datacontract.schemas._2004._07.todaconta_webservice.TipoRecarga;
-import org.datacontract.schemas._2004._07.todaconta_webservice.TransacaoConsultaOperadoraDDD;
+import org.datacontract.schemas._2004._07.todaconta_webservice.*;
 
 import javax.xml.bind.JAXBElement;
 import javax.xml.namespace.QName;
-import java.io.IOException;
 import java.util.List;
 
 /**
@@ -62,6 +58,8 @@ public class AppTest
 
 
     public void testTopupRecharge(){
+        //Add CPF (Gov ID)
+        JAXBElement<String> CPF = stringToElement("CpfCnpj","11036382702");
 
         // configure the operation
         //payment
@@ -79,7 +77,8 @@ public class AppTest
         phone.setCodigoEstado(11);
         phone.setCodigoPais(55);
 
-        RespostaRecarga respostaRecarga = new RespostaRecarga();
+        RespostaRecarga respostaRecarga;
+
         //Recharge
         Recarga recharge = new Recarga();
         recharge.setOperadoraId(1);
@@ -87,21 +86,25 @@ public class AppTest
         recharge.setDadosPagamento(todaContaObjectFactory.createPagamento(payment));
         recharge.setTerminalExterno(todaContaObjectFactory.createDadosOperacaoTerminalIdExterno("11036382702"));
         recharge.setNSUExterno(todaContaObjectFactory.createDadosUsuarioNSUExterno("1234567"));
-        recharge.setCpfCnpj(todaContaObjectFactory.createDadosRegistroCpfCnpjBeneficiario("11036382702"));
+        recharge.setCpfCnpj(CPF);
 
         //create transaction
 
         // finalize the operation
         GatewayWeb rechargeHelper = new GatewayWeb();
         IGatewayWeb helper = rechargeHelper.getWSHttpBindingIGatewayWeb();
-        //respostaRecarga = helper.processaTransacao(new TransacaoTemplate(recharge));
+        TransacaoTemplate transacaoTemplate = new TransacaoFinanceira();
+        transacaoTemplate.setCpfCnpj(CPF);
 
-        //create transaction
-        objectFactory.createProcessaTransacaoResponseProcessaTransacaoResult(respostaRecarga);
+        //TODO: Following the C# example, I need to insert a TransacaoTemplate into ProcessaTransacao
+        // TODO   But, In example, recharge(Recarga) is a Transacao and on my code Recarga is a simple class Extended TransacaoFinanceira
+        //respostaRecarga = (RespostaRecarga) helper.processaTransacao(webServiceObjectFactory.createRecarga(recharge));
+
 
 
         assertNotNull("data");
     }
+
     public void testTopupConsultPhoneProvider() {
 
         //looks like "Point of Service"
@@ -111,7 +114,7 @@ public class AppTest
         pa.setPosId(1);
 
         //Add CPF (Gov ID)
-        JAXBElement<String> CPF = todaContaObjectFactory.createDadosRegistroCpfCnpjBeneficiario("11036382702");
+        JAXBElement<String> CPF = stringToElement("CpfCnpj","11036382702");
 
         Integer DDD = 11;
 
@@ -141,6 +144,9 @@ public class AppTest
 
         System.out.println("Server responded with the message: - " + resp.getMensagemErro().getValue());
         System.out.println("Server responded with the Code: - " + resp.getCodigoErro().getValue());
+
+        //TODO Server responded with the message: - Objeto nulo ou necessario nao recebido
+        //TODO Server responded with the Code: - 999
 
         assertNotNull(resp);
 

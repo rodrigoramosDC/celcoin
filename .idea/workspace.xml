@@ -17,11 +17,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+            <state relative-caret-position="865">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5749#5750#0" expanded="true" />
+                <element signature="e#5786#5787#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -64,6 +75,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/myartifact/pom.xml" />
+        <option value="$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoTemplate.java" />
         <option value="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" />
       </list>
     </option>
@@ -214,7 +226,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../SDKs/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551298574675" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551300358240" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -235,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testTopupConsultPhoneProvider">
+  <component name="RunManager" selected="JUnit.AppTest.testTopupRecharge">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myartifact" />
       <extension name="coverage">
@@ -301,8 +313,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProvider" />
         <item itemvalue="JUnit.AppTest.testTopupRecharge" />
+        <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProvider" />
         <item itemvalue="JUnit.AppTest.testApp" />
         <item itemvalue="JUnit.AppTest" />
       </list>
@@ -347,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551298139887</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="the same position of real code">
+      <created>1551298633642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551298633642</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -362,6 +381,9 @@
     </history-entry>
     <history-entry file="AppTest_testTopupRecharge - 2019.02.27 at 17h 08m 33s.xml">
       <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.02.27 at 17h 16m 18s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -403,7 +425,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicial" />
+    <MESSAGE value="the same position of real code" />
+    <option name="LAST_COMMIT_MESSAGE" value="the same position of real code" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -435,12 +470,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        <state relative-caret-position="865">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5749#5750#0" expanded="true" />
+            <element signature="e#5786#5787#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="688394df-d506-411d-984f-72309912b5b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myartifact/myartifact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myartifact/myartifact.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myartifact/target/" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="236">
+              <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,7 +214,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../SDKs/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551298109933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551298574675" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -236,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testTopupRecharge">
+  <component name="RunManager" selected="JUnit.AppTest.testTopupConsultPhoneProvider">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myartifact" />
       <extension name="coverage">
@@ -268,6 +267,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testTopupConsultPhoneProvider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myartifact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mygroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mygroup" />
+      <option name="MAIN_CLASS_NAME" value="mygroup.AppTest" />
+      <option name="METHOD_NAME" value="testTopupConsultPhoneProvider" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest.testTopupRecharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myartifact" />
       <extension name="coverage">
@@ -286,6 +301,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProvider" />
         <item itemvalue="JUnit.AppTest.testTopupRecharge" />
         <item itemvalue="JUnit.AppTest.testApp" />
         <item itemvalue="JUnit.AppTest" />
@@ -324,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551297348112</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="inicial">
+      <created>1551298139887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551298139887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -337,12 +360,15 @@
     <history-entry file="AppTest_testApp - 2019.02.27 at 17h 06m 52s.xml">
       <configuration name="AppTest.testApp" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_testTopupRecharge - 2019.02.27 at 17h 08m 33s.xml">
+      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-64" y="29" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,7 +381,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32932693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932693" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,10 +414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/src/main/java/mygroup/App.java">
+    <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="415">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -402,17 +428,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
+    <entry file="file://$PROJECT_DIR$/myartifact/src/main/java/mygroup/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="236">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

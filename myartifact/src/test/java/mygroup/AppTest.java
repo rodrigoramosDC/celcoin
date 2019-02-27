@@ -6,12 +6,16 @@ import gatewaywebservice.ObjectFactory;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.datacontract.schemas._2004._07.todaconta.Pagamento;
-import org.datacontract.schemas._2004._07.todaconta.RespostaRecarga;
-import org.datacontract.schemas._2004._07.todaconta.Telefone;
-import org.datacontract.schemas._2004._07.todaconta.TipoPagamento;
+import org.datacontract.schemas._2004._07.todaconta.*;
+import org.datacontract.schemas._2004._07.todaconta_webservice.CategoriaRecarga;
 import org.datacontract.schemas._2004._07.todaconta_webservice.Recarga;
+import org.datacontract.schemas._2004._07.todaconta_webservice.TipoRecarga;
+import org.datacontract.schemas._2004._07.todaconta_webservice.TransacaoConsultaOperadoraDDD;
 
+import javax.xml.bind.JAXBElement;
+import javax.xml.namespace.QName;
+import java.io.IOException;
+import java.util.List;
 
 /**
  * Unit test for simple App.
@@ -23,6 +27,13 @@ public class AppTest
     private org.datacontract.schemas._2004._07.todaconta.ObjectFactory todaContaObjectFactory = new org.datacontract.schemas._2004._07.todaconta.ObjectFactory();
     private org.datacontract.schemas._2004._07.todaconta_webservice.ObjectFactory webServiceObjectFactory = new org.datacontract.schemas._2004._07.todaconta_webservice.ObjectFactory();
 
+    public QName stringToQElementName (String string){
+        return new QName("http://GatewayWebService", string);
+    }
+
+    public JAXBElement<String> stringToElement(String elementXml, String value) {
+        return new JAXBElement<String>(stringToQElementName(elementXml), String.class, Operadora.class, value);
+    }
     /**
      * Create the test case
      *
@@ -89,6 +100,53 @@ public class AppTest
         objectFactory.createProcessaTransacaoResponseProcessaTransacaoResult(respostaRecarga);
 
 
+        assertNotNull("data");
+    }
+    public void testTopupConsultPhoneProvider() {
+
+        //looks like "Point of Service"
+        PontoDeAtendimento pa = new PontoDeAtendimento();
+        pa.setLogin(todaContaObjectFactory.createPontoDeAtendimentoLogin("teste"));
+        pa.setSenha(todaContaObjectFactory.createPontoDeAtendimentoSenha("teste"));
+        pa.setPosId(1);
+
+        //Add CPF (Gov ID)
+        JAXBElement<String> CPF = todaContaObjectFactory.createDadosRegistroCpfCnpjBeneficiario("11036382702");
+
+        Integer DDD = 11;
+
+        TransacaoConsultaOperadoraDDD transacaoConsultaOperadoraDDD = new TransacaoConsultaOperadoraDDD();
+        transacaoConsultaOperadoraDDD.setCpfCnpj(CPF);
+        transacaoConsultaOperadoraDDD.setDdd(DDD);
+
+        transacaoConsultaOperadoraDDD.setCategoriaRecarga(CategoriaRecarga.TODOS);
+        transacaoConsultaOperadoraDDD.setPontoAtendimento(todaContaObjectFactory.createPontoDeAtendimento(pa));
+        transacaoConsultaOperadoraDDD.setTipoRecarga(TipoRecarga.TODOS);
+
+        //Transaction Type = Consulta Operadora DDD (phone provider consult)
+        transacaoConsultaOperadoraDDD.setTipoTransacao(stringToElement("TipoTransacao","CONSULTAOPERADORADDD"));
+        transacaoConsultaOperadoraDDD.setEnderecoIP(stringToElement("EnderecoIP","127.0.0.1"));
+
+        GatewayWeb ss = new GatewayWeb();
+        IGatewayWeb port = ss.getBasicHttpBindingIGatewayWeb();
+        RespostaConsultaOperadora resp;
+
+        System.out.println("Invoking transaction ... "+ port.toString());
+
+        resp = (RespostaConsultaOperadora) port.processaTransacao(transacaoConsultaOperadoraDDD);
+        JAXBElement<ArrayOfOperadora> ro = resp.getOperadoras();
+        ArrayOfOperadora arrayOfOperadora = ro.getValue();
+
+        List<Operadora> operadoras = arrayOfOperadora.getOperadora();
+
+        System.out.println("Server responded with the message: - " + resp.getMensagemErro().getValue());
+        System.out.println("Server responded with the Code: - " + resp.getCodigoErro().getValue());
+
+        assertNotNull(resp);
+
+    }
+
+    public void testTopupConsultValuesOfProvider()  {
         assertNotNull("data");
     }
 

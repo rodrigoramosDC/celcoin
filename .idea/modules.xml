@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/myartifact/myartifact.iml" filepath="$PROJECT_DIR$/myartifact/myartifact.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rodrigoramos_999.iml" filepath="$PROJECT_DIR$/.idea/rodrigoramos_999.iml" />
     </modules>
   </component>

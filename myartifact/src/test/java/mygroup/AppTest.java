@@ -33,7 +33,7 @@ public class AppTest
     /**
      * Create the test case
      *
-     * @param testName name of the test case
+     * @param testName name of the test casewe
      */
     public AppTest( String testName )
     {
@@ -71,6 +71,7 @@ public class AppTest
         payment.setValorAcrescimo(0.0);
         payment.setValorBruto(0.0);
         payment.setValorDesconto(0.0);
+
         //Phone
         Telefone phone = new Telefone();
         phone.setNumero(99998889);
@@ -81,7 +82,7 @@ public class AppTest
 
         //Recharge
         Recarga recharge = new Recarga();
-        recharge.setOperadoraId(1);
+        recharge.setOperadoraId(2087);
         recharge.setTelefoneRecarga(todaContaObjectFactory.createTelefone(phone));
         recharge.setDadosPagamento(todaContaObjectFactory.createPagamento(payment));
         recharge.setTerminalExterno(todaContaObjectFactory.createDadosOperacaoTerminalIdExterno("11036382702"));
@@ -89,20 +90,35 @@ public class AppTest
         recharge.setCpfCnpj(CPF);
 
         //create transaction
+//looks like "Point of Service"
+        PontoDeAtendimento pa = new PontoDeAtendimento();
+        pa.setLogin(todaContaObjectFactory.createPontoDeAtendimentoLogin("teste"));
+        pa.setSenha(todaContaObjectFactory.createPontoDeAtendimentoSenha("teste"));
+        pa.setPosId(1);
+
+
+        //TransacaoTemplate transacaoTemplate = new TransacaoFinanceira();
+        TransacaoFinanceira transacaoFinanceira = new TransacaoFinanceira();
+        transacaoFinanceira.setCpfCnpj(CPF);
+        transacaoFinanceira.setTerminalExterno(todaContaObjectFactory.createDadosOperacaoTerminalIdExterno("11036382702"));
+        transacaoFinanceira.setPontoAtendimento(todaContaObjectFactory.createPontoDeAtendimento(pa));
+        transacaoFinanceira.setEnderecoIP(stringToElement("enderecoIP", "127.0.0.1"));
+        transacaoFinanceira.setDadosPagamento(todaContaObjectFactory.createPagamento(payment));
+//       transacaoTemplate.setHashIntegracao();
+        transacaoFinanceira.setNSU(0);
+        transacaoFinanceira.setTipoTransacao(stringToElement("tipotransacao", "RECARGA"));
+        transacaoFinanceira.setNSUExterno(todaContaObjectFactory.createDadosUsuarioNSUExterno("1234567"));
 
         // finalize the operation
         GatewayWeb rechargeHelper = new GatewayWeb();
-        IGatewayWeb helper = rechargeHelper.getWSHttpBindingIGatewayWeb();
-        TransacaoTemplate transacaoTemplate = new TransacaoFinanceira();
-        transacaoTemplate.setCpfCnpj(CPF);
+        IGatewayWeb helper = rechargeHelper.getBasicHttpBindingIGatewayWeb();
 
-        //TODO: Following the C# example, I need to insert a TransacaoTemplate into ProcessaTransacao
-        // TODO   But, In example, recharge(Recarga) is a Transacao and on my code Recarga is a simple class Extended TransacaoFinanceira
-        //respostaRecarga = (RespostaRecarga) helper.processaTransacao(webServiceObjectFactory.createRecarga(recharge));
+        Resposta resposta = helper.processaTransacao(transacaoFinanceira);
 
+        System.out.println("Server responded with the message: - " + resposta.getMensagemErro().getValue());
+        System.out.println("Server responded with the Code: - " + resposta.getCodigoErro().getValue());
 
-
-        assertNotNull("data");
+        assertTrue("Server need to answer with the code 000", resposta.getCodigoErro().getValue() == "000");
     }
 
     public void testTopupConsultPhoneProvider() {
@@ -145,10 +161,10 @@ public class AppTest
         System.out.println("Server responded with the message: - " + resp.getMensagemErro().getValue());
         System.out.println("Server responded with the Code: - " + resp.getCodigoErro().getValue());
 
-        //TODO Server responded with the message: - Objeto nulo ou necessario nao recebido
-        //TODO Server responded with the Code: - 999
+        //TODO Server answered with the message: - Objeto nulo ou necessario nao recebido
+        //TODO Server answered with the Code: - 999
 
-        assertNotNull(resp);
+        assertTrue("the Server need to answer with the code 000", resp.getCodigoErro().getValue() == "000");
 
     }
 

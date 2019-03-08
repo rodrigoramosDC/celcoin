@@ -72,13 +72,30 @@ public class AppTest
         payment.setValorBruto(0.0);
         payment.setValorDesconto(0.0);
 
+
         //Phone
         Telefone phone = new Telefone();
         phone.setNumero(99998889);
         phone.setCodigoEstado(11);
         phone.setCodigoPais(55);
 
+
         RespostaRecarga respostaRecarga;
+
+        //create transaction
+//looks like "Point of Service"
+        PontoDeAtendimento pa = new PontoDeAtendimento();
+        pa.setLogin(todaContaObjectFactory.createPontoDeAtendimentoLogin("teste"));
+        pa.setSenha(todaContaObjectFactory.createPontoDeAtendimentoSenha("teste"));
+        pa.setPosId(1);
+
+        DadosUsuario dadosUsuario = new DadosUsuario();
+        dadosUsuario.setClienteId(12345);
+        //dadosUsuario.setCodigoTransacao();
+        dadosUsuario.setNSU(0);
+        //dadosUsuario.setNSUExterno();
+        //dadosUsuario.setPosId();
+        //dadosUsuario.setTerminalExterno();
 
         //Recharge
         Recarga recharge = new Recarga();
@@ -88,13 +105,19 @@ public class AppTest
         recharge.setTerminalExterno(todaContaObjectFactory.createDadosOperacaoTerminalIdExterno("11036382702"));
         recharge.setNSUExterno(todaContaObjectFactory.createDadosUsuarioNSUExterno("1234567"));
         recharge.setCpfCnpj(CPF);
+//        recharge.setCodigoAssinante();
+//        recharge.setCodRegional();
+//        recharge.setEnderecoIP();
+//        recharge.setHashIntegracao();
+//        recharge.setNSU();
+//        recharge.setPontoAtendimento();
+//        recharge.setSessionId();
+//        recharge.setSiteIntegracaoId();
+//        recharge.setTipoTransacao();
+//        recharge.setToken();
+//        recharge.setVersao();
 
-        //create transaction
-//looks like "Point of Service"
-        PontoDeAtendimento pa = new PontoDeAtendimento();
-        pa.setLogin(todaContaObjectFactory.createPontoDeAtendimentoLogin("teste"));
-        pa.setSenha(todaContaObjectFactory.createPontoDeAtendimentoSenha("teste"));
-        pa.setPosId(1);
+
 
 
         //TransacaoTemplate transacaoTemplate = new TransacaoFinanceira();
@@ -146,12 +169,18 @@ public class AppTest
         transacaoConsultaOperadoraDDD.setTipoTransacao(stringToElement("TipoTransacao","CONSULTAOPERADORADDD"));
         transacaoConsultaOperadoraDDD.setEnderecoIP(stringToElement("EnderecoIP","127.0.0.1"));
 
+        //invoke the server
         GatewayWeb ss = new GatewayWeb();
         IGatewayWeb port = ss.getBasicHttpBindingIGatewayWeb();
         RespostaConsultaOperadora resp;
 
         System.out.println("Invoking transaction ... "+ port.toString());
 
+        //Process transaction
+        port.processaToken(new BaseToken());
+        port.validaTiket("12345");
+        transacaoConsultaOperadoraDDD.setCpfCnpj(CPF);
+        transacaoConsultaOperadoraDDD.setPontoAtendimento(todaContaObjectFactory.createPontoDeAtendimento(pa));
         resp = (RespostaConsultaOperadora) port.processaTransacao(transacaoConsultaOperadoraDDD);
         JAXBElement<ArrayOfOperadora> ro = resp.getOperadoras();
         ArrayOfOperadora arrayOfOperadora = ro.getValue();
@@ -161,7 +190,7 @@ public class AppTest
         System.out.println("Server responded with the message: - " + resp.getMensagemErro().getValue());
         System.out.println("Server responded with the Code: - " + resp.getCodigoErro().getValue());
 
-        //TODO Server answered with the message: - Objeto nulo ou necessario nao recebido
+        //TODO Server answered with the message: - Objeto nulo ou necessario nao recebido (Null Object or Needed not received)
         //TODO Server answered with the Code: - 999
 
         assertTrue("the Server need to answer with the code 000", resp.getCodigoErro().getValue() == "000");

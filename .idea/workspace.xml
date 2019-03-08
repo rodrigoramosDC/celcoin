@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="688394df-d506-411d-984f-72309912b5b7" name="Default Changelist" comment="the same position of real code">
+    <list default="true" id="688394df-d506-411d-984f-72309912b5b7" name="Default Changelist" comment="the tests are responding but the tests not passed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" afterDir="false" />
     </list>
@@ -17,12 +17,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
+            <state relative-caret-position="97">
+              <caret line="184" selection-start-line="184" selection-end-line="184" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5749#5750#0" expanded="true" />
-                <element signature="e#5786#5787#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/ObjectFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="18150">
               <caret line="1329" column="36" selection-start-line="1329" selection-start-column="23" selection-end-line="1329" selection-end-column="36" />
             </state>
           </provider>
@@ -52,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="540">
               <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
             </state>
           </provider>
@@ -61,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="630">
               <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
             </state>
           </provider>
@@ -138,16 +136,17 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1056" />
-    <option name="height" value="802" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,13 +245,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../SDKs/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551506411079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552073278071" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -406,28 +404,17 @@
       <option name="project" value="LOCAL" />
       <updated>1551502568379</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="the tests are responding but the tests not passed">
+      <created>1551506458236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551506458236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.02.28 at 15h 02m 16s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testTopupRecharge - 2019.03.01 at 08h 44m 44s.xml">
-      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testTopupRecharge - 2019.03.01 at 08h 46m 16s.xml">
-      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testTopupRecharge - 2019.03.02 at 02h 29m 06s.xml">
-      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testTopupRecharge - 2019.03.02 at 02h 37m 18s.xml">
-      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.02 at 02h 41m 13s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.02 at 02h 46m 03s.xml">
       <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
     </history-entry>
@@ -440,12 +427,29 @@
     <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.02 at 02h 57m 30s.xml">
       <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.07 at 08h 48m 29s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.07 at 09h 07m 54s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.03.07 at 09h 09m 05s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testTopupRecharge - 2019.03.08 at 09h 02m 09s.xml">
+      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.08 at 09h 04m 22s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.08 at 16h 23m 57s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.072649576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07326008" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,11 +459,10 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Job Explorer" order="9" />
-      <window_info anchor="bottom" id="Messages" weight="0.32932693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932693" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932693" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.73876697" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -468,6 +471,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32932693" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32932693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -482,14 +486,15 @@
     <MESSAGE value="inicial" />
     <MESSAGE value="the same position of real code" />
     <MESSAGE value="improving the readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="improving the readme" />
+    <MESSAGE value="the tests are responding but the tests not passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="the tests are responding but the tests not passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java</url>
-          <line>120</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -499,42 +504,20 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/src/main/java/mygroup/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="1329" column="36" selection-start-line="1329" selection-start-column="23" selection-end-line="1329" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -548,10 +531,13 @@
     <entry file="file://$PROJECT_DIR$/myartifact/myartifact.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="97">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -565,15 +551,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/ObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="113" column="76" selection-start-line="113" selection-start-column="76" selection-end-line="113" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5749#5750#0" expanded="true" />
-            <element signature="e#5786#5787#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="18150">
+          <caret line="1329" column="36" selection-start-line="1329" selection-start-column="23" selection-end-line="1329" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/src/main/java/mygroup/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

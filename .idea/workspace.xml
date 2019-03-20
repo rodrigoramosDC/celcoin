@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688394df-d506-411d-984f-72309912b5b7" name="Default Changelist" comment="the tests are responding but the tests not passed">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myartifact/myartifact.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myartifact/myartifact.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myartifact/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myartifact/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/myartifact/target/" />
@@ -12,46 +16,87 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1797664805">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="11" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="11" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="396" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="396" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="184" selection-start-line="184" selection-end-line="184" />
+            <state relative-caret-position="430">
+              <caret line="304" column="30" lean-forward="true" selection-start-line="304" selection-start-column="30" selection-end-line="304" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#1709#1710#0" expanded="true" />
+                <element signature="e#7797#7798#0" expanded="true" />
+                <element signature="e#7834#7835#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/RespostaConsultaOperadora.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/ObjectFactory.java">
+        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/PontoDeAtendimento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18150">
-              <caret line="1329" column="36" selection-start-line="1329" selection-start-column="23" selection-end-line="1329" selection-end-column="36" />
+            <state relative-caret-position="333">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding>
+                <element signature="e#2693#2694#0" expanded="true" />
+                <element signature="e#2727#2728#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
+        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/gatewaywebservice/IGatewayWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="497">
+              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -59,26 +104,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoConsultaOperadoraDDD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="88">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+              <folding>
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2314#2315#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myartifact/src/main/java/mygroup/App.java">
+        <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoConsultaValoresOperadoraDDD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="73">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -88,6 +137,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>SETO</find>
+      <find>TransacaoConsultaValoresOperadoraDDD</find>
+      <find>SUCESSO</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,12 +149,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/myartifact/pom.xml" />
         <option value="$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoTemplate.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/RespostaConsultaOperadora.java" />
+        <option value="$PROJECT_DIR$/myartifact/pom.xml" />
         <option value="$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -136,10 +194,11 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1203" />
+    <option name="y" value="44" />
+    <option name="width" value="1329" />
+    <option name="height" value="1325" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -151,38 +210,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -190,56 +249,28 @@
               <item name="mygroup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
+              <item name="celcoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="celcoin" type="462c0819:PsiDirectoryNode" />
               <item name="myartifact" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mygroup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
-              <item name="myartifact" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
-              <item name="myartifact" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="cxf-codegen-plugin-markers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
-              <item name="myartifact" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rodrigoramos_999" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rodrigoramos_999" type="462c0819:PsiDirectoryNode" />
-              <item name="myartifact" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-              <item name="cxf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,8 +280,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="android.sdk.path" value="$PROJECT_DIR$/../../SDKs/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552073278071" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/SDKs/Android" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553084323252" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -271,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testTopupConsultPhoneProvider">
+  <component name="RunManager" selected="JUnit.AppTest.testTopupWithUnirest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="myartifact" />
       <extension name="coverage">
@@ -282,23 +315,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="mygroup" />
       <option name="MAIN_CLASS_NAME" value="mygroup.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="myartifact" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mygroup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mygroup" />
-      <option name="MAIN_CLASS_NAME" value="mygroup.AppTest" />
-      <option name="METHOD_NAME" value="testApp" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -314,6 +330,22 @@
       <option name="PACKAGE_NAME" value="mygroup" />
       <option name="MAIN_CLASS_NAME" value="mygroup.AppTest" />
       <option name="METHOD_NAME" value="testTopupConsultPhoneProvider" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myartifact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mygroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mygroup" />
+      <option name="MAIN_CLASS_NAME" value="mygroup.AppTest" />
+      <option name="METHOD_NAME" value="testTopupConsultPhoneProviderUsingOkHttp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -335,12 +367,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.testTopupWithUnirest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="myartifact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mygroup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mygroup" />
+      <option name="MAIN_CLASS_NAME" value="mygroup.AppTest" />
+      <option name="METHOD_NAME" value="testTopupWithUnirest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProvider" />
+      <item itemvalue="JUnit.AppTest.testTopupRecharge" />
+      <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProviderUsingOkHttp" />
+      <item itemvalue="JUnit.AppTest.testTopupWithUnirest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testTopupWithUnirest" />
+        <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProviderUsingOkHttp" />
         <item itemvalue="JUnit.AppTest.testTopupConsultPhoneProvider" />
-        <item itemvalue="JUnit.AppTest.testTopupRecharge" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testApp" />
+        <item itemvalue="JUnit.AppTest.testTopupRecharge" />
       </list>
     </recent_temporary>
   </component>
@@ -354,6 +410,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551277134245</updated>
+      <workItem from="1553026679413" duration="6813000" />
     </task>
     <task id="LOCAL-00001" summary="inicial">
       <created>1551295061431</created>
@@ -415,41 +472,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.02 at 02h 46m 03s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 39m 18s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.02 at 02h 54m 05s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 39m 37s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupRecharge - 2019.03.02 at 02h 56m 20s.xml">
-      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 41m 59s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.02 at 02h 57m 30s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 43m 23s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.07 at 08h 48m 29s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 44m 08s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.07 at 09h 07m 54s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 44m 18s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.03.07 at 09h 09m 05s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 44m 41s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupRecharge - 2019.03.08 at 09h 02m 09s.xml">
-      <configuration name="AppTest.testTopupRecharge" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupConsultPhoneProviderUsingOkHttp - 2019.03.19 at 18h 45m 07s.xml">
+      <configuration name="AppTest.testTopupConsultPhoneProviderUsingOkHttp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.08 at 09h 04m 22s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupWithUnirest - 2019.03.19 at 19h 49m 12s.xml">
+      <configuration name="AppTest.testTopupWithUnirest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testTopupConsultPhoneProvider - 2019.03.08 at 16h 23m 57s.xml">
-      <configuration name="AppTest.testTopupConsultPhoneProvider" configurationId="JUnit" />
+    <history-entry file="AppTest_testTopupWithUnirest - 2019.03.19 at 19h 51m 23s.xml">
+      <configuration name="AppTest.testTopupWithUnirest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6813000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="1203" y="44" width="1329" height="1325" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07326008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2812743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -459,19 +520,23 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Job Explorer" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32932693" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.73876697" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44545454" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40865386" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40826446" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Console" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32932693" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32932693" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289256" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -481,6 +546,12 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicial" />
@@ -494,53 +565,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java</url>
-          <line>143</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java</url>
-          <line>61</line>
+          <line>365</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java</url>
-          <line>184</line>
-          <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/gatewaywebservice/ProcessaTransacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="128" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myartifact/myartifact.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/ObjectFactory.java" />
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -548,27 +591,6 @@
             <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18150">
-          <caret line="1329" column="36" selection-start-line="1329" selection-start-column="23" selection-end-line="1329" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/Recarga.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -583,6 +605,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/gatewaywebservice/ProcessaTransacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/gatewaywebservice/ObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding>
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2240#2241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoConsultaValores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+          <folding>
+            <element signature="e#6591#6592#0" expanded="true" />
+            <element signature="e#6627#6628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/PontoDeAtendimento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="e#2693#2694#0" expanded="true" />
+            <element signature="e#2727#2728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoConsultaOperadoraDDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2314#2315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta_webservice/TransacaoConsultaValoresOperadoraDDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/org/datacontract/schemas/_2004/_07/todaconta/RespostaConsultaOperadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/target/generated-sources/cxf/gatewaywebservice/IGatewayWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar!/okhttp3/Request.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
+          <folding>
+            <element signature="e#4819#4820#0" expanded="true" />
+            <element signature="e#4875#4876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="938" column="18" selection-start-line="938" selection-start-column="18" selection-end-line="938" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.14.0/okhttp-3.14.0.jar!/okhttp3/RequestBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myartifact/src/test/java/mygroup/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="304" column="30" lean-forward="true" selection-start-line="304" selection-start-column="30" selection-end-line="304" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+            <element signature="e#7797#7798#0" expanded="true" />
+            <element signature="e#7834#7835#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
